@@ -16,7 +16,6 @@ class MainActivity : ComponentActivity() {
         setContent {
             SimpleNavigationTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-
                     Navigation()
                 }
             }
